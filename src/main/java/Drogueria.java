@@ -1,6 +1,9 @@
-public class Drogueria {
+public class Drogueria implements Producto{
     String nombre;
     double precio;
+
+    public Drogueria() {
+    }
 
     public Drogueria(String nombre, double precio) {
         this.nombre = nombre;
@@ -18,4 +21,5 @@ public class Drogueria {
     public void setPrecio(int precio) {
         this.precio = precio;
     }
+
 }

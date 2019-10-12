@@ -1,6 +1,10 @@
-public class Panaderia {
+public class Panaderia implements Producto{
     String nombre;
     double precio;
+
+    public Panaderia(){
+
+    }
 
     public Panaderia(String nombre, double precio) {
         this.nombre = nombre;
@@ -18,4 +22,5 @@ public class Panaderia {
     public void setPrecio(int precio) {
         this.precio = precio;
     }
+
 }
